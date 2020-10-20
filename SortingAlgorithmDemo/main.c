@@ -7,14 +7,14 @@
 //
 
 #include <stdio.h>
-//#include "bubbleSortingDemo.h"
-//#include "SelectSortingDemo.h"
-//#include "InsertSortingDemo.h"
-//#include "XiErSortingText.h"
-//#include "GuibingSorting.h"
-//#include "FastSortingModule.h"
+#include "bubbleSortingDemo.h"
+#include "SelectSortingDemo.h"
+#include "InsertSortingDemo.h"
+#include "XiErSortingText.h"
+#include "GuibingSorting.h"
+#include "FastSortingModule.h"
 
-//#include "HeapSortingText.h"
+#include "HeapSortingText.h"
 #include "CountSortingText.h"
 #include "ShowSingleLinkToRevert.h"
 #include "MergeTwoSingleLinkList.h"
@@ -35,8 +35,7 @@ int main(int argc, const char * argv[]) {
     
 //    selectSorting3(arr, len);
     
-    insertSortingText3(arr ,len);
-//    insertSortingText_for(arr,len);
+    insertSortingText_for(arr,len);
   
 //    xierSorting3(arr,len);
 //    guibingSortingText(arr,len);
@@ -62,3 +61,5 @@ int main(int argc, const char * argv[]) {
 
 //冒泡、选择、插入、希尔、归并、快速
 //堆排、计数、桶、基数
+
+//链表 合并、倒序、创建
