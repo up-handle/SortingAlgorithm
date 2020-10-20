@@ -22,56 +22,6 @@
 
 
 #pragma markm -排序的-
-//冒泡
-void bubble_sort_text3(int arr[],int len){
-    for (int i = 0; i<len-1; i++) {
-        for (int j = 0; j<len-1-i; j++) {
-            if (arr[j]>arr[j+1]) {
-                int temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
-            }
-        }
-    }
-}
-
-//选择
-void selectSortingText3(int arr[],int len){
-    int i ,j ,min;
-    for (i = 0; i<len-1; i++) {
-        min = i;
-        for (j = i + 1; j<len-1; j++) {
-            if (arr[j]<arr[min]) {
-                min = j;
-            }
-        }
-        //
-        if (min != i) {
-            int temp = arr[min];
-            arr[min] = arr[i];
-            arr[i] = temp;
-        }
-    }
-}
-
-//插入
-
-void insertSortingText3(int arr[],int len){
-    
-    int i,j,key;
-    for (i = 1; i<len; i++) {
-        key = arr[i];
-        j = i-1;
-        while (j>=0 && arr[j]>key) {
-            arr[j+1] = arr[j];
-            j--;
-        }
-        arr[j+1] = key;
-    }
-}
-
-
-
 
 
 int main(int argc, const char * argv[]) {
