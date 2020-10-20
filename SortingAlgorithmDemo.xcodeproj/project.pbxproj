@@ -7,7 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1802A491251B171D001A2887 /* TwozhanAndQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1802A48F251B171D001A2887 /* TwozhanAndQueue.cpp */; };
+		18313429250F6C3D00E3D3BC /* CSingleLinkListStudy.c in Sources */ = {isa = PBXBuildFile; fileRef = 18313428250F6C3D00E3D3BC /* CSingleLinkListStudy.c */; };
+		183B800B250B14AF009D78BE /* SgLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 183B800A250B14AF009D78BE /* SgLinkList.c */; };
+		184202A52500AA2800C08DC7 /* XiErSortingText.c in Sources */ = {isa = PBXBuildFile; fileRef = 184202A42500AA2800C08DC7 /* XiErSortingText.c */; };
+		184202A82500CB1600C08DC7 /* GuibingSorting.c in Sources */ = {isa = PBXBuildFile; fileRef = 184202A72500CB1600C08DC7 /* GuibingSorting.c */; };
+		184202AB2500EA4800C08DC7 /* FastSortingModule.c in Sources */ = {isa = PBXBuildFile; fileRef = 184202AA2500EA4800C08DC7 /* FastSortingModule.c */; };
+		18582D0F25109D570040844D /* ShowSingleLinkToRevert.c in Sources */ = {isa = PBXBuildFile; fileRef = 18582D0E25109D570040844D /* ShowSingleLinkToRevert.c */; };
+		18582D122510BACC0040844D /* MergeTwoSingleLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 18582D112510BACC0040844D /* MergeTwoSingleLinkList.c */; };
 		188C0A4C24FF2F3700C13A4A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 188C0A4B24FF2F3700C13A4A /* main.c */; };
+		188C0A5924FF34D100C13A4A /* FunctionText.c in Sources */ = {isa = PBXBuildFile; fileRef = 188C0A5824FF34D100C13A4A /* FunctionText.c */; };
+		188C0A5C24FF36CF00C13A4A /* bubbleSortingDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 188C0A5B24FF36CF00C13A4A /* bubbleSortingDemo.c */; };
+		188C0A5F24FF415400C13A4A /* SelectSortingDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 188C0A5E24FF415400C13A4A /* SelectSortingDemo.c */; };
+		188C0A6224FF703700C13A4A /* InsertSortingDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 188C0A6124FF703700C13A4A /* InsertSortingDemo.c */; };
+		18CE18C2250607EC003AE0FA /* HeapSortingText.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE18C1250607EC003AE0FA /* HeapSortingText.c */; };
+		18CE18C525062EBF003AE0FA /* CountSortingText.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CE18C425062EBF003AE0FA /* CountSortingText.c */; };
+		18E4CB1E2507876E009F4942 /* BinarySearchDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E4CB1D2507876E009F4942 /* BinarySearchDemo.c */; };
+		18E4CB2525086F80009F4942 /* MethodTextTextFun.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E4CB2425086F80009F4942 /* MethodTextTextFun.c */; };
+		18E4CB282508BA19009F4942 /* BinaryTreeFindDemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E4CB272508BA19009F4942 /* BinaryTreeFindDemo.c */; };
+		18F1764B2518401E00CE1CC3 /* judgeLinkWhetherRun.c in Sources */ = {isa = PBXBuildFile; fileRef = 18F1764A2518401E00CE1CC3 /* judgeLinkWhetherRun.c */; };
+		18F17652251844F800CE1CC3 /* ArraySomeTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18F17651251844F800CE1CC3 /* ArraySomeTest.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +42,47 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1802A48F251B171D001A2887 /* TwozhanAndQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwozhanAndQueue.cpp; sourceTree = "<group>"; };
+		1802A490251B171D001A2887 /* TwozhanAndQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwozhanAndQueue.hpp; sourceTree = "<group>"; };
+		18313427250F6C3D00E3D3BC /* CSingleLinkListStudy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSingleLinkListStudy.h; sourceTree = "<group>"; };
+		18313428250F6C3D00E3D3BC /* CSingleLinkListStudy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CSingleLinkListStudy.c; sourceTree = "<group>"; };
+		183B8009250B14AF009D78BE /* SgLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SgLinkList.h; sourceTree = "<group>"; };
+		183B800A250B14AF009D78BE /* SgLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SgLinkList.c; sourceTree = "<group>"; };
+		184202A32500AA2800C08DC7 /* XiErSortingText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiErSortingText.h; sourceTree = "<group>"; };
+		184202A42500AA2800C08DC7 /* XiErSortingText.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = XiErSortingText.c; sourceTree = "<group>"; };
+		184202A62500CB1600C08DC7 /* GuibingSorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuibingSorting.h; sourceTree = "<group>"; };
+		184202A72500CB1600C08DC7 /* GuibingSorting.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GuibingSorting.c; sourceTree = "<group>"; };
+		184202A92500EA4800C08DC7 /* FastSortingModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastSortingModule.h; sourceTree = "<group>"; };
+		184202AA2500EA4800C08DC7 /* FastSortingModule.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FastSortingModule.c; sourceTree = "<group>"; };
+		18582D0D25109D570040844D /* ShowSingleLinkToRevert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowSingleLinkToRevert.h; sourceTree = "<group>"; };
+		18582D0E25109D570040844D /* ShowSingleLinkToRevert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShowSingleLinkToRevert.c; sourceTree = "<group>"; };
+		18582D102510BACC0040844D /* MergeTwoSingleLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeTwoSingleLinkList.h; sourceTree = "<group>"; };
+		18582D112510BACC0040844D /* MergeTwoSingleLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeTwoSingleLinkList.c; sourceTree = "<group>"; };
 		188C0A4824FF2F3700C13A4A /* SortingAlgorithmDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgorithmDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		188C0A4B24FF2F3700C13A4A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		188C0A5724FF34D100C13A4A /* FunctionText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionText.h; sourceTree = "<group>"; };
+		188C0A5824FF34D100C13A4A /* FunctionText.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FunctionText.c; sourceTree = "<group>"; };
+		188C0A5A24FF36CF00C13A4A /* bubbleSortingDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bubbleSortingDemo.h; sourceTree = "<group>"; };
+		188C0A5B24FF36CF00C13A4A /* bubbleSortingDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bubbleSortingDemo.c; sourceTree = "<group>"; };
+		188C0A5D24FF415400C13A4A /* SelectSortingDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectSortingDemo.h; sourceTree = "<group>"; };
+		188C0A5E24FF415400C13A4A /* SelectSortingDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SelectSortingDemo.c; sourceTree = "<group>"; };
+		188C0A6024FF703700C13A4A /* InsertSortingDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSortingDemo.h; sourceTree = "<group>"; };
+		188C0A6124FF703700C13A4A /* InsertSortingDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertSortingDemo.c; sourceTree = "<group>"; };
+		18CE18C0250607EC003AE0FA /* HeapSortingText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSortingText.h; sourceTree = "<group>"; };
+		18CE18C1250607EC003AE0FA /* HeapSortingText.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapSortingText.c; sourceTree = "<group>"; };
+		18CE18C325062EBF003AE0FA /* CountSortingText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountSortingText.h; sourceTree = "<group>"; };
+		18CE18C425062EBF003AE0FA /* CountSortingText.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CountSortingText.c; sourceTree = "<group>"; };
+		18E4CB1C2507876E009F4942 /* BinarySearchDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchDemo.h; sourceTree = "<group>"; };
+		18E4CB1D2507876E009F4942 /* BinarySearchDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearchDemo.c; sourceTree = "<group>"; };
+		18E4CB2225078CBE009F4942 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		18E4CB2325086F80009F4942 /* MethodTextTextFun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodTextTextFun.h; sourceTree = "<group>"; };
+		18E4CB2425086F80009F4942 /* MethodTextTextFun.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MethodTextTextFun.c; sourceTree = "<group>"; };
+		18E4CB262508BA19009F4942 /* BinaryTreeFindDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeFindDemo.h; sourceTree = "<group>"; };
+		18E4CB272508BA19009F4942 /* BinaryTreeFindDemo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTreeFindDemo.c; sourceTree = "<group>"; };
+		18F176492518401E00CE1CC3 /* judgeLinkWhetherRun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = judgeLinkWhetherRun.h; sourceTree = "<group>"; };
+		18F1764A2518401E00CE1CC3 /* judgeLinkWhetherRun.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = judgeLinkWhetherRun.c; sourceTree = "<group>"; };
+		18F17650251844F800CE1CC3 /* ArraySomeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArraySomeTest.h; sourceTree = "<group>"; };
+		18F17651251844F800CE1CC3 /* ArraySomeTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ArraySomeTest.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +96,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1802A48D251B16D9001A2887 /* C++_group */ = {
+			isa = PBXGroup;
+			children = (
+				1802A48E251B16F6001A2887 /* zhanAndQueue */,
+			);
+			path = "C++_group";
+			sourceTree = "<group>";
+		};
+		1802A48E251B16F6001A2887 /* zhanAndQueue */ = {
+			isa = PBXGroup;
+			children = (
+				1802A48F251B171D001A2887 /* TwozhanAndQueue.cpp */,
+				1802A490251B171D001A2887 /* TwozhanAndQueue.hpp */,
+			);
+			path = zhanAndQueue;
+			sourceTree = "<group>";
+		};
+		183B8008250B144C009D78BE /* LianbiaoListText */ = {
+			isa = PBXGroup;
+			children = (
+				183B8009250B14AF009D78BE /* SgLinkList.h */,
+				183B800A250B14AF009D78BE /* SgLinkList.c */,
+				18313427250F6C3D00E3D3BC /* CSingleLinkListStudy.h */,
+				18313428250F6C3D00E3D3BC /* CSingleLinkListStudy.c */,
+				18582D0D25109D570040844D /* ShowSingleLinkToRevert.h */,
+				18582D0E25109D570040844D /* ShowSingleLinkToRevert.c */,
+				18582D102510BACC0040844D /* MergeTwoSingleLinkList.h */,
+				18582D112510BACC0040844D /* MergeTwoSingleLinkList.c */,
+				18F176492518401E00CE1CC3 /* judgeLinkWhetherRun.h */,
+				18F1764A2518401E00CE1CC3 /* judgeLinkWhetherRun.c */,
+			);
+			path = LianbiaoListText;
+			sourceTree = "<group>";
+		};
 		188C0A3F24FF2F3700C13A4A = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +149,62 @@
 		188C0A4A24FF2F3700C13A4A /* SortingAlgorithmDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1802A48D251B16D9001A2887 /* C++_group */,
+				18F1764C2518415D00CE1CC3 /* ArrayAlgorithm */,
+				183B8008250B144C009D78BE /* LianbiaoListText */,
+				18E4CB1B250782D1009F4942 /* CheckFindAll */,
+				18E4CB1A2507827C009F4942 /* SortAll */,
 				188C0A4B24FF2F3700C13A4A /* main.c */,
+				188C0A5724FF34D100C13A4A /* FunctionText.h */,
+				188C0A5824FF34D100C13A4A /* FunctionText.c */,
 			);
 			path = SortingAlgorithmDemo;
+			sourceTree = "<group>";
+		};
+		18E4CB1A2507827C009F4942 /* SortAll */ = {
+			isa = PBXGroup;
+			children = (
+				188C0A5D24FF415400C13A4A /* SelectSortingDemo.h */,
+				188C0A5E24FF415400C13A4A /* SelectSortingDemo.c */,
+				188C0A5A24FF36CF00C13A4A /* bubbleSortingDemo.h */,
+				188C0A5B24FF36CF00C13A4A /* bubbleSortingDemo.c */,
+				188C0A6024FF703700C13A4A /* InsertSortingDemo.h */,
+				188C0A6124FF703700C13A4A /* InsertSortingDemo.c */,
+				184202A32500AA2800C08DC7 /* XiErSortingText.h */,
+				184202A42500AA2800C08DC7 /* XiErSortingText.c */,
+				184202A62500CB1600C08DC7 /* GuibingSorting.h */,
+				184202A72500CB1600C08DC7 /* GuibingSorting.c */,
+				184202A92500EA4800C08DC7 /* FastSortingModule.h */,
+				184202AA2500EA4800C08DC7 /* FastSortingModule.c */,
+				18CE18C0250607EC003AE0FA /* HeapSortingText.h */,
+				18CE18C1250607EC003AE0FA /* HeapSortingText.c */,
+				18CE18C325062EBF003AE0FA /* CountSortingText.h */,
+				18CE18C425062EBF003AE0FA /* CountSortingText.c */,
+			);
+			path = SortAll;
+			sourceTree = "<group>";
+		};
+		18E4CB1B250782D1009F4942 /* CheckFindAll */ = {
+			isa = PBXGroup;
+			children = (
+				18E4CB1C2507876E009F4942 /* BinarySearchDemo.h */,
+				18E4CB1D2507876E009F4942 /* BinarySearchDemo.c */,
+				18E4CB2225078CBE009F4942 /* Header.h */,
+				18E4CB2325086F80009F4942 /* MethodTextTextFun.h */,
+				18E4CB2425086F80009F4942 /* MethodTextTextFun.c */,
+				18E4CB262508BA19009F4942 /* BinaryTreeFindDemo.h */,
+				18E4CB272508BA19009F4942 /* BinaryTreeFindDemo.c */,
+			);
+			path = CheckFindAll;
+			sourceTree = "<group>";
+		};
+		18F1764C2518415D00CE1CC3 /* ArrayAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				18F17650251844F800CE1CC3 /* ArraySomeTest.h */,
+				18F17651251844F800CE1CC3 /* ArraySomeTest.mm */,
+			);
+			path = ArrayAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +264,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188C0A5924FF34D100C13A4A /* FunctionText.c in Sources */,
+				18F1764B2518401E00CE1CC3 /* judgeLinkWhetherRun.c in Sources */,
+				18E4CB1E2507876E009F4942 /* BinarySearchDemo.c in Sources */,
+				1802A491251B171D001A2887 /* TwozhanAndQueue.cpp in Sources */,
+				18313429250F6C3D00E3D3BC /* CSingleLinkListStudy.c in Sources */,
+				184202A52500AA2800C08DC7 /* XiErSortingText.c in Sources */,
+				18E4CB282508BA19009F4942 /* BinaryTreeFindDemo.c in Sources */,
+				18582D0F25109D570040844D /* ShowSingleLinkToRevert.c in Sources */,
+				188C0A5C24FF36CF00C13A4A /* bubbleSortingDemo.c in Sources */,
+				18582D122510BACC0040844D /* MergeTwoSingleLinkList.c in Sources */,
+				184202A82500CB1600C08DC7 /* GuibingSorting.c in Sources */,
+				188C0A6224FF703700C13A4A /* InsertSortingDemo.c in Sources */,
+				183B800B250B14AF009D78BE /* SgLinkList.c in Sources */,
+				18F17652251844F800CE1CC3 /* ArraySomeTest.mm in Sources */,
 				188C0A4C24FF2F3700C13A4A /* main.c in Sources */,
+				184202AB2500EA4800C08DC7 /* FastSortingModule.c in Sources */,
+				18E4CB2525086F80009F4942 /* MethodTextTextFun.c in Sources */,
+				18CE18C2250607EC003AE0FA /* HeapSortingText.c in Sources */,
+				188C0A5F24FF415400C13A4A /* SelectSortingDemo.c in Sources */,
+				18CE18C525062EBF003AE0FA /* CountSortingText.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
